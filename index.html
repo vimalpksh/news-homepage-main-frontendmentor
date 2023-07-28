@@ -18,8 +18,9 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
-        font-size: 11px;
+        font-size: 14px;
         text-align: center;
+        margin-top: 2rem;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
@@ -27,9 +28,12 @@
     </style>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div><img src="./assets/images/logo.svg" alt="" /></div>
       <nav>
+        <button id="menu-close">
+          <img src="./assets/images/icon-menu-close.svg" alt="" />
+        </button>
         <ul>
           <li>Home</li>
           <li>New</li>
@@ -38,8 +42,13 @@
           <li>Categories</li>
         </ul>
       </nav>
+      <div class="menu-button">
+        <button id="menu-button">
+          <img src="./assets/images/icon-menu.svg" alt="" />
+        </button>
+      </div>
     </header>
-    <section>
+    <section class="showcase">
       <div>
         <picture>
           <source
@@ -82,7 +91,7 @@
         </article>
       </div>
     </section>
-    <div>
+    <div class="cards">
       <article>
         <img src="./assets/images/image-retro-pcs.jpg" alt="" />
         <div>
